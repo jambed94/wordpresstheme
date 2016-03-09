@@ -11,9 +11,9 @@
 			  
 			<?php 
 			
-				$args_cat = array(
-					'include' => '4, 7, 8'
-				);
+				/*$args_cat = array(
+					'include' => '5, 6, 7'
+				);*/
 				
 				$categories = get_categories($args_cat);
 				$count = 0;

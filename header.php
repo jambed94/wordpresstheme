@@ -34,7 +34,7 @@
 					        <span class="icon-bar"></span>
 					        <span class="icon-bar"></span>
 					      </button>
-					      <a class="navbar-brand" href="#">My First Theme</a>
+					      <a class="navbar-brand" href="#">Rebel HeART</a>
 					    </div>
 						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 							<?php 

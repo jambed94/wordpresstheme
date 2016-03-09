@@ -4,7 +4,7 @@
 	
 	<div class="col-xs-12 col-sm-8">
 		
-		<div class="row text-center">
+		<div class="row text-center no-margin">
 
 		<?php 
 		
@@ -31,9 +31,16 @@
 						</div>
 					</div>
 			
-			<?php $i++; endwhile;
+			<?php $i++; endwhile; ?>
 			
-		endif;
+			<div class="col-xs-6 text-left">
+				<?php next_posts_link('< Older Posts'); ?>
+			</div>
+			<div class="col-xs-6 text-right">
+				<?php previous_posts_link('Newer Posts >'); ?>
+			</div>
+
+		<?php endif;
 				
 		?>
 		</div>
